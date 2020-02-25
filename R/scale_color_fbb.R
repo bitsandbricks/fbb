@@ -1,5 +1,6 @@
-# Escala para ggplot
-
+#' FBB color palette
+#'
+#' @export
 scale_color_fbb <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
     pal <- fbb_pal(palette = palette, reverse = reverse)
 

@@ -1,17 +1,19 @@
-## GGPLOT THEME
-# Se necesita la fuente Circular Std
-#
-# Descargar la fuente en version regular:
-# https://github.com/elartix/circular-std/blob/master/fonts/CircularStd-Book.ttfy
-# y bold:
-# https://github.com/elartix/circular-std/blob/master/fonts/CircularStd-Bold.ttf
-#
-# instalarlas
-# y para registrarlas en R
-# install.packages("extrafont")
-# extrafont::font_import()
-# extrafont::loadfonts()
-
+#' FBB theme
+#'
+#' Creates an FBB theme.
+#'     Requires fonts Circular Std regular (# https://github.com/elartix/circular-std/blob/master/fonts/CircularStd-Book.ttfy)
+#'     and bold (https://github.com/elartix/circular-std/blob/master/fonts/CircularStd-Bold.ttf .
+#'     After instlling the fonts, register them in R:
+#'     # install.packages("extrafont")
+#'     # extrafont::font_import()
+#'     # extrafont::loadfonts()
+#'
+#' @return a ggplot2 theme
+#'
+#' @examples
+#' theme_fbb()
+#'
+#' @export
 theme_fbb <- function(base_size = 14,
                       base_family = "CircularStd",
                       base_line_size = base_size / 170,

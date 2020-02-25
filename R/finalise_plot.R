@@ -1,4 +1,3 @@
-
 #' Adds the FBB logo to plots
 #'
 #' @param palette named color palette (see the list in fbb_palettes)

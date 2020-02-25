@@ -1,8 +1,6 @@
-######################
-### FBB Colors ###
-######################
-
-
+#' FBB Colors
+#'
+#' @export
 fbb_colors <- c(
     `blue-main`   = "#00468B",
     `blue2`       = "#3868A9",
@@ -36,7 +34,7 @@ fbb_cols <- function(...) {
     fbb_colors[cols]
 }
 
-
+#' @export
 fbb_palettes <- list(
     `main`  = fbb_cols("blue-main", "lightblue-main", "gray"),
 
