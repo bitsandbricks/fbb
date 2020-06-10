@@ -47,6 +47,7 @@ theme_fbb <- function(base_size = 14,
 }
 
 
+#' @export
 theme_fbb_map <- function(base_size = 14,
                       base_family = "CircularStd",
                       base_line_size = base_size / 170,
